@@ -1,11 +1,62 @@
-/.devcontainer
-/CPlantBox-master.zip
-/Dockerfile
-/mon_test.py
-/output
+# build system clutter
+build-*
+Testing
+*.so
+src/CMakeFiles/
+src/Makefile
+src/cmake_install.cmake
+test/__pycache__/
+/cpbenv
+/dumux
+# auto-saved files
+*~
 
+# hidden files
+.cproject
+.project
+
+# Codeblocks
+*.cbp
+Codeblocks
+
+# latex clutter
+*.pdf
+*.aux
+*.blg
+*.log
+*.bbl
+*.dvi
+*.idx
+*.out
+*.tdo
+*.toc
+
+# CMake
+*.cmake
+CMakeFiles
+Makefile
+*CMakeCache*
+
+# something python related
+*.pyc
+__pycache__
+
+# pyenv
+.python-version
+
+# Others
+.pydevproject
+.settings/
+Debug/
 *.vtp
 *.vtk
 *.csv
+*.vti
 
-*.devcontainer
+# Jupyter notebook
+tutorial/jupyter/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# images
+*.png
+.vscode/settings.json

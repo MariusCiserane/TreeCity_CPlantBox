@@ -1,0 +1,9 @@
+.git
+build/
+cmake-build-*/
+__pycache__/
+*.pyc
+*.o
+*.so
+.venv/
+cpbenv/

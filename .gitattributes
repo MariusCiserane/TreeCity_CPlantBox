@@ -1,1 +1,5 @@
-* text=auto eol=lf
+*.ipynb linguist-detectable=false
+*.tex linguist-detectable=false
+*.pdf linguist-detectable=false
+*.cpp linguist-detectable=true
+*.py linguist-detectable=true
